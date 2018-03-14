@@ -47,11 +47,10 @@ public class MainActivity extends AppCompatActivity {
             count++;
             switch (count) {
                 case 1:
-                    playSound("audio_one.mp3");
+                    playSound("in_the_morning.mp3");
                     break;
                 case 2:
-                    break;
-                case 3:
+                    playSound("some_coffe_would_be_nice.mp3");
                     break;
             }
         }
